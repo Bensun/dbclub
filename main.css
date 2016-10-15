@@ -1,0 +1,70 @@
+#page1{
+	height: 1000px;
+}
+a:link,
+a:visited{
+	color: limegreen;
+	background-color:transparent;
+}
+a:hover,
+a:active{
+	color: limegreen;
+	background-color:transparent;
+	text-decoration:underline;
+}
+#nav a:link,
+#nav a:visited{
+	color: sienna;
+	background-color:transparent;
+}
+#nav a:hover,
+#nav a:active{
+	color: sienna;
+	background-color:transparent;
+	text-decoration:underline;
+}
+#nav{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 2rem;
+	padding-top: 2.5%;
+	text-align: center;
+}
+#topicons{
+	text-align: center;
+}
+#name{
+	font-family: 'Pacifico', monospace;
+	font-size: 5rem;
+	padding-top: 3%;
+}
+.content{
+	font-family: 'Share Tech Mono', monospace;;
+	font-size: 3rem;
+	line-height: 175%;
+	padding-top: 2.5%;
+}
+#titlefont{
+	font-family: 'Pacifico', monospace;
+	font-size: 3rem;
+}
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
